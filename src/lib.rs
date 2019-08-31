@@ -1,7 +1,7 @@
 //! Parse environment variables by defining a struct.
 //!
 //! ## Example
-//! ```rust
+//! ```no_run
 //! use envopt::EnvOpt;
 //!
 //! #[derive(EnvOpt)]
