@@ -1,3 +1,4 @@
 /target
+/envopt-derive/target
 **/*.rs.bk
 Cargo.lock

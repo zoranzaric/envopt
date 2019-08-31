@@ -1,0 +1,22 @@
+[package]
+name = "envopt-derive"
+version = "0.0.0"
+authors = ["Zoran Zaric <zz@zoranzaric.de>"]
+edition = "2018"
+description = "Parse environment variables by defining a struct, derive crate."
+categories = ["command-line-interface"]
+
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/zoranzaric/envopt"
+repository = "https://github.com/zoranzaric/envopt.git"
+
+[lib]
+proc-macro = true
+
+[dev-dependencies]
+trybuild = "1.0"
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version="1.0", features=["extra-traits"] }
