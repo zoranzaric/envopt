@@ -129,15 +129,9 @@ fn get_attr(name: String, variant: &Variant) -> Option<String> {
 }
 
 fn get_name_attr(variant: &Variant) -> Option<String> {
-    dbg!(get_attr("name".into(), variant))
+    get_attr("name".into(), variant)
 }
 
 fn get_default_attr(variant: &Variant) -> Option<String> {
-    dbg!(get_attr("default".into(), variant))
-}
-
-#[cfg(test)]
-mod test {
-    #[test]
-    pub fn test() {}
+    get_attr("default".into(), variant)
 }
